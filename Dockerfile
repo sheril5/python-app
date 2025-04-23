@@ -4,6 +4,8 @@ FROM python:3.10-slim
 # Set working directory
 WORKDIR /app
 
+#check
+
 # Copy files
 COPY app.py .
 COPY test_app.py .
