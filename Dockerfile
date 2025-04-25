@@ -2,6 +2,7 @@
 FROM python:3.10-slim
 
 # Set working directory
+
 WORKDIR /app
 
 #check
@@ -13,5 +14,6 @@ COPY test_app.py .
 # Install dependencies
 RUN pip install pytest
 
+CMD "a"
 # Default command (for testing, runs the app)
 CMD ["python", "app.py"]
