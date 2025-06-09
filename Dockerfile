@@ -6,6 +6,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 #check
+#dd
 
 # Copy files
 COPY app.py .
